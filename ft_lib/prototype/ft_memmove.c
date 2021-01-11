@@ -1,7 +1,23 @@
-#include <libft.h>
-//copia da src a dest fino a len facendo attenzione alla 
-//sovrapposizione delle memorie che contengono src e dest
-void	*ft_memcpy(void *dest, void *src, size_t len)
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memmove.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: liafigli <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/01/11 13:29:46 by liafigli          #+#    #+#             */
+/*   Updated: 2021/01/11 13:29:50 by liafigli         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "libft.h"
+
+/*
+**copia da src a dest fino a len facendo attenzione alla 
+**sovrapposizione delle memorie che contengono src e dest
+**da finire
+*/
+void	*ft_memmove(void *dest, void *src, size_t len)
 {
     size_t i;
 
@@ -16,4 +32,3 @@ void	*ft_memcpy(void *dest, void *src, size_t len)
     }
     return (dest);
 }
-//NON FINITO HELPPPPppppp
