@@ -6,7 +6,7 @@
 /*   By: liafigli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/11 13:29:46 by liafigli          #+#    #+#             */
-/*   Updated: 2021/01/11 13:29:50 by liafigli         ###   ########.fr       */
+/*   Updated: 2021/01/12 14:57:44 by liafigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,18 @@ void	*ft_memmove(void *dest, void *src, size_t len)
     i = 0;
     if (!dest && !src)
         return (0);
-    if (((unsigned char *)dest) > ((unsigned char *)src))
-    while (i > len)
-    {
-        ((unsigned char *)dest)[i]=((unsigned char *)src)[i];
-        i++;
-    }
+	if (((unsigned char *)dest > (unsigned char *)src))
+	{
+    	while (len--)
+        	((unsigned char *)dest)[len] = ((unsigned char *)src)[len];
+	}
+	else
+	{
+		while (i < len)
+		{
+			((unsigned char *)dest)[i] = ((unsigned char *)src)[i];
+			i++;
+		}
+	}
     return (dest);
 }

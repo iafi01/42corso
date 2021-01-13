@@ -1,32 +1,37 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: liafigli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/11 11:07:33 by liafigli          #+#    #+#             */
-/*   Updated: 2021/01/11 14:15:28 by liafigli         ###   ########.fr       */
+/*   Created: 2021/01/12 17:23:45 by liafigli          #+#    #+#             */
+/*   Updated: 2021/01/13 08:59:16 by liafigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
-**copia da src a dest fino a len
-*/
-
-void	*ft_memcpy(void *dest, void *src, size_t len)
+char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	size_t i;
+	size_t j;
+	char *str;
 
 	i = 0;
-	if (!dest && !src)
-		return (0);
-	while (i < len)
+	j = 0;
+	str = (char *)malloc((len + 1) * sizeof(char *));
+	if (!str)
+		return (NULL);
+	while (s[i])
 	{
-		((unsigned char *)dest)[i] = ((unsigned char *)src)[i];
+		if (i >= start && i <= len )
+		{
+			str[j] = s[i];
+			j++;
+		}
 		i++;
 	}
-	return (dest);
+	return (str);
 }
+

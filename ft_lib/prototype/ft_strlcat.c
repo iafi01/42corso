@@ -1,32 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: liafigli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/11 11:07:33 by liafigli          #+#    #+#             */
-/*   Updated: 2021/01/11 14:15:28 by liafigli         ###   ########.fr       */
+/*   Created: 2021/01/11 16:27:34 by liafigli          #+#    #+#             */
+/*   Updated: 2021/01/12 15:46:35 by liafigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
-**copia da src a dest fino a len
-*/
-
-void	*ft_memcpy(void *dest, void *src, size_t len)
+size_t		strlcat(char * restrict dst, const char * restrict src, 
+		size_t dstsize)
 {
-	size_t i;
+	unsigned int i;
+	unsigned int j;
 
 	i = 0;
-	if (!dest && !src)
-		return (0);
-	while (i < len)
+	j  = ft_strlen(dst);
+	if (dstsize <= ft_strlen(dst))
+		return (dstsize + ft_strlen(src));
+	while (src[i] && j < dstsize - 1)
 	{
-		((unsigned char *)dest)[i] = ((unsigned char *)src)[i];
+		dst[j] = src[i];
+		j++;
 		i++;
 	}
-	return (dest);
+	dst[j] = '\0';
+	return (ft_strlen(dst) + ft_strlen(&src[i]));
 }

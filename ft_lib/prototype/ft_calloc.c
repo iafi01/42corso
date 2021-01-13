@@ -1,32 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: liafigli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/11 11:07:33 by liafigli          #+#    #+#             */
-/*   Updated: 2021/01/11 14:15:28 by liafigli         ###   ########.fr       */
+/*   Created: 2021/01/12 12:03:04 by liafigli          #+#    #+#             */
+/*   Updated: 2021/01/12 13:12:04 by liafigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
-**copia da src a dest fino a len
-*/
-
-void	*ft_memcpy(void *dest, void *src, size_t len)
+void	*ft_calloc(size_t count, size_t size)
 {
-	size_t i;
+	void *a;
 
-	i = 0;
-	if (!dest && !src)
-		return (0);
-	while (i < len)
+	a = malloc(count * size);
+	if (a = NULL)
+		return (NULL);
+	else
 	{
-		((unsigned char *)dest)[i] = ((unsigned char *)src)[i];
-		i++;
+		ft_memset(a, 0, size * count);
+		return (a);
 	}
-	return (dest);
 }

@@ -1,32 +1,37 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: liafigli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/11 11:07:33 by liafigli          #+#    #+#             */
-/*   Updated: 2021/01/11 14:15:28 by liafigli         ###   ########.fr       */
+/*   Created: 2021/01/12 18:09:41 by liafigli          #+#    #+#             */
+/*   Updated: 2021/01/12 18:34:30 by liafigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
-**copia da src a dest fino a len
-*/
-
-void	*ft_memcpy(void *dest, void *src, size_t len)
+char	*ft_strjoin(char const *s1, char const *s2)
 {
 	size_t i;
+	size_t j;
+	char *s3;
 
 	i = 0;
-	if (!dest && !src)
-		return (0);
-	while (i < len)
+	j = 0;
+	s3 = (char *)malloc(sizeof(char *) * (ft_strlen(s1) + ft_strlen(s2) + 2));
+	while (s1[i])
 	{
-		((unsigned char *)dest)[i] = ((unsigned char *)src)[i];
+		s3[i] = s1[i];
 		i++;
 	}
-	return (dest);
+	while (s2[j])
+	{
+		s3[i] = s2[j];
+		i++;
+		j++;
+	}
+	s3[i] = '\0';
+	return (s3);
 }

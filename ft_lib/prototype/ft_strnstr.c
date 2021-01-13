@@ -1,32 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: liafigli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/11 11:07:33 by liafigli          #+#    #+#             */
-/*   Updated: 2021/01/11 14:15:28 by liafigli         ###   ########.fr       */
+/*   Created: 2021/01/12 09:21:08 by liafigli          #+#    #+#             */
+/*   Updated: 2021/01/12 17:02:55 by liafigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
-**copia da src a dest fino a len
-*/
-
-void	*ft_memcpy(void *dest, void *src, size_t len)
+char	*ft_strnstr(const char	*big, const char *little, size_t len)
 {
-	size_t i;
-
+	int i;
+	int j;
+	
 	i = 0;
-	if (!dest && !src)
-		return (0);
-	while (i < len)
+	if (!big || !null)
+		return (NULL);
+	while (big[i] && i  < len)
 	{
-		((unsigned char *)dest)[i] = ((unsigned char *)src)[i];
+		j = 0;
+		while(big[i + j] && little[j] && i + j < len && big[i + j] == little[j])
+		{
+			j++;
+			if (little[j])
+				return ((char *)(big + i));
+		}
 		i++;
-	}
-	return (dest);
+	}	
 }
