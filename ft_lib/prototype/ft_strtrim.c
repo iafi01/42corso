@@ -6,11 +6,11 @@ char	*ft_strtrim(char const *s1, char const *set)
 	size_t j;
 	size_t start;
 	size_t len;
-	char *str;
 
 	i = 0;
-	str = (char *)malloc(sizeof(char) * (ft_strlen(s1) + 1));
-	if (!str)
+	len = 0;
+	start = 0;
+	if (!s1)
 		return (NULL);
 	while (s1[i])
 	{
@@ -19,7 +19,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 		{
 			if (s1[i] == set[j] || s1[i] == set[j - 1])
 			{
-				if (start == NULL)
+				if (start == 0)
 					start = i;
 				if (start > len)
 					len = start;
@@ -29,6 +29,5 @@ char	*ft_strtrim(char const *s1, char const *set)
 		}
 		i++;
 	}
-	str = s;
-	return (ft_substr(str,start,len));
+	return (ft_substr(s1,start,len));
 }
