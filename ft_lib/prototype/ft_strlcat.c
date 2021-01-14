@@ -6,14 +6,13 @@
 /*   By: liafigli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/11 16:27:34 by liafigli          #+#    #+#             */
-/*   Updated: 2021/01/12 15:46:35 by liafigli         ###   ########.fr       */
+/*   Updated: 2021/01/14 19:13:21 by liafigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t		strlcat(char * restrict dst, const char * restrict src, 
-		size_t dstsize)
+size_t		ft_strlcat(char *dst, const char *src, size_t dstsize)
 {
 	unsigned int i;
 	unsigned int j;
