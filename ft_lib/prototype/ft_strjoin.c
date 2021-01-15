@@ -6,7 +6,7 @@
 /*   By: liafigli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/12 18:09:41 by liafigli          #+#    #+#             */
-/*   Updated: 2021/01/12 18:34:30 by liafigli         ###   ########.fr       */
+/*   Updated: 2021/01/15 16:55:56 by liafigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {
-	size_t i;
-	size_t j;
-	char *s3;
+	size_t	i;
+	size_t	j;
+	char	*s3;
 
 	i = 0;
 	j = 0;
