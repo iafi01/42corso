@@ -6,7 +6,7 @@
 /*   By: liafigli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/12 10:46:20 by liafigli          #+#    #+#             */
-/*   Updated: 2021/01/12 11:53:21 by liafigli         ###   ########.fr       */
+/*   Updated: 2021/01/15 19:28:16 by liafigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,10 +30,12 @@ int		ft_atoi(const char *str)
 	int i;
 	int sign;
 	int sum;
+	char *s;
 
 	sum = 0;
 	sign = 1;
 	i = 0;
+	s = str;
 	i = space(str, i);
 	if (str[i] == '+' || str[i] == '-')
 		if (str[i++] == '-')

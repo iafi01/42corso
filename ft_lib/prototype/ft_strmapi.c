@@ -6,7 +6,7 @@
 /*   By: liafigli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/13 14:15:32 by liafigli          #+#    #+#             */
-/*   Updated: 2021/01/15 16:52:29 by liafigli         ###   ########.fr       */
+/*   Updated: 2021/01/15 18:49:13 by liafigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,10 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	char	*str;
 	size_t	i;
-
-	if (!s || !f || (!str = ft_strdup(s)))
+	
+	i = 0;	
+	str = ft_strdup(s);
+	if (!s || !f || !str)
 		return (0);
 	while (str[i])
 	{

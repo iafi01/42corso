@@ -6,7 +6,7 @@
 /*   By: liafigli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/13 17:19:31 by liafigli          #+#    #+#             */
-/*   Updated: 2021/01/13 17:35:05 by liafigli         ###   ########.fr       */
+/*   Updated: 2021/01/15 17:10:11 by liafigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,8 @@
 
 void	ft_putnbr_fd(int n, int fd)
 {
-	unsigned int nb;
+	unsigned int	nb;
+
 	if (n < 0)
 	{
 		ft_putchar_fd('-', fd);
