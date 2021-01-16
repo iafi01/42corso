@@ -6,7 +6,7 @@
 #    By: liafigli <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/01/15 10:39:22 by liafigli          #+#    #+#              #
-#    Updated: 2021/01/15 17:19:44 by liafigli         ###   ########.fr        #
+#    Updated: 2021/01/16 17:36:03 by liafigli         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,14 +35,14 @@ BONUSS	=	$(BONUS:.c=.o)
 
 all: $(NAME)
 
-$(NAME):
-	gcc $(FLAGS) -c $(FILES) 
+$(NAME): $(FILESS)
+	ar -rc $(NAME) $^
 
-bonus:
-	gcc $(FLAGS) -I$(INCLUDE) -c $(FILES) $(BONUS)
+bonus: $(FILESS) $(BONUSS)
+	ar -rc $(NAME) $^
 
 .c.o:
-	gcc $(CFLAGS) -I$(INCLUDE) -c $< -o $(<:.c=.o)
+	gcc $(FLAGS) -I$(INCLUDE) -c $< -o $(<:.c=.o)
 
 clean:
 	$(RM) $(FILESS) $(BONUSS)
