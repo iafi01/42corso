@@ -6,8 +6,8 @@ void (*del)(void *))
 	t_list *tmp;
 	t_list *i;
 	
-	if (!lst || !f)
-		return ;
+	if (!lst)
+		return (0);
 	tmp = NULL;
 	while (lst)
 	{

@@ -6,7 +6,7 @@
 /*   By: liafigli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/11 11:10:09 by liafigli          #+#    #+#             */
-/*   Updated: 2021/01/11 11:31:07 by liafigli         ###   ########.fr       */
+/*   Updated: 2021/01/17 10:51:29 by liafigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,8 +27,8 @@ void	*ft_memccpy(void *s1, const void *s2, int c, size_t len)
 	{
 		((unsigned char *)s1)[i] = ((unsigned char *)s2)[i];
 		if ((unsigned char)c == ((unsigned char *)s2)[i])
-			return (s1);
+			return (s1 + 1 + i);
 		i++;
 	}
-	return (s1);
+	return (0);
 }
