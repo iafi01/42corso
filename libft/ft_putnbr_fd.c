@@ -6,7 +6,7 @@
 /*   By: liafigli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/13 17:19:31 by liafigli          #+#    #+#             */
-/*   Updated: 2021/01/16 15:48:22 by liafigli         ###   ########.fr       */
+/*   Updated: 2021/01/17 15:16:53 by liafigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,5 +26,5 @@ void	ft_putnbr_fd(int n, int fd)
 	if (nb > 9)
 		ft_putnbr_fd(nb / 10, fd);
 	else
-		ft_putchar_fd(nb, fd);
+		ft_putchar_fd((nb + '0'), fd);
 }
