@@ -6,7 +6,7 @@
 /*   By: liafigli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/12 10:46:20 by liafigli          #+#    #+#             */
-/*   Updated: 2021/01/16 08:36:01 by liafigli         ###   ########.fr       */
+/*   Updated: 2021/01/17 13:23:34 by liafigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,11 +25,20 @@ int		space(char const *str, int i)
 	return (i);
 }
 
+static int	checkmax(long n, int sign)
+{
+	if (n > 2147483647 && sign == 1)
+		return (-1);
+	if (n > 2147483648 && sign == -1)
+		return (0);
+	return (1);
+}
+
 int		ft_atoi(const char *str)
 {
 	int i;
 	int sign;
-	int sum;
+	long sum;
 
 	sum = 0;
 	sign = 1;
@@ -49,5 +58,7 @@ int		ft_atoi(const char *str)
 		else
 			break ;
 	}
+	if (checkmax(sum, sign) != 1)
+		return (checkmax(sum, sign));
 	return (sum * sign);
 }
