@@ -6,13 +6,13 @@
 /*   By: liafigli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/12 10:46:20 by liafigli          #+#    #+#             */
-/*   Updated: 2021/01/17 13:23:34 by liafigli         ###   ########.fr       */
+/*   Updated: 2021/01/17 17:23:24 by liafigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		space(char const *str, int i)
+static int		space(char const *str, int i)
 {
 	while (str[i])
 	{
