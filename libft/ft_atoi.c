@@ -6,18 +6,18 @@
 /*   By: liafigli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/12 10:46:20 by liafigli          #+#    #+#             */
-/*   Updated: 2021/01/18 09:27:46 by liafigli         ###   ########.fr       */
+/*   Updated: 2021/01/18 14:00:10 by liafigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static	int	space(char const *str, int i)
+static int	space(char const *str, int i)
 {
 	while (str[i])
 	{
-		if (str[i] == '\t' || str[i] == '\n' || str[i] == '\v' ||
-				str[i] == '\f' || str[i] == '\r' || str[i] == 32)
+		if (str[i] == '\t' || str[i] == '\n' || str[i] == '\v'
+			|| str[i] == '\f' || str[i] == '\r' || str[i] == 32)
 			i++;
 		else
 			break ;
@@ -25,7 +25,7 @@ static	int	space(char const *str, int i)
 	return (i);
 }
 
-int		ft_atoi(const char *str)
+int			ft_atoi(const char *str)
 {
 	int					i;
 	int					sign;

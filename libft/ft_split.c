@@ -6,39 +6,34 @@
 /*   By: liafigli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/13 14:55:05 by liafigli          #+#    #+#             */
-/*   Updated: 2021/01/16 09:41:10 by liafigli         ###   ########.fr       */
+/*   Updated: 2021/01/18 13:59:42 by liafigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static	int	count_words(const char *str, char c)
+static int		count_words(const char *str, char c)
 {
 	int i;
-	int count;
 	int flag;
 
 	i = 0;
-	count = 0;
-	while (str[i])
+	flag = 0;
+	while (*str)
 	{
-		if (str[i] != c)
+		if (*str != c && flag == 0)
 		{
 			flag = 1;
-			if (str[i + 1] == '\0')
-				count++;
+			i++;
 		}
-		else if (flag == 1 && str[i] == c)
-		{
+		else if (*str == c)
 			flag = 0;
-			count++;
-		}
-		i++;
+		str++;
 	}
-	return (count);
+	return (i);
 }
 
-char	*word_dup(const char *str, int start, int finish)
+static char		*word_dup(const char *str, int start, int finish)
 {
 	char	*word;
 	int		i;
@@ -51,7 +46,7 @@ char	*word_dup(const char *str, int start, int finish)
 	return (word);
 }
 
-char	**ft_split(char const *s, char c)
+char			**ft_split(char const *s, char c)
 {
 	size_t	i;
 	size_t	j;
@@ -61,18 +56,19 @@ char	**ft_split(char const *s, char c)
 	i = 0;
 	j = 0;
 	index = -1;
-	split = malloc(count_words(s, c) + 1 * sizeof(char *));
-	if (!s || !split)
+	split = malloc((count_words(s, c) + 1) * sizeof(char *));
+	if (!s || !split || !c)
 		return (0);
-	while (i < ft_strlen(s))
+	while (i <= ft_strlen(s))
 	{
 		if (s[i] != c && index < 0)
 			index = i;
-		else if ((s[i] == c || (i == ft_strlen(s) && index >= 0)))
+		else if ((((s[i] == c || i == ft_strlen(s)) && index >= 0)))
 		{
 			split[j++] = word_dup(s, index, i);
 			index = -1;
 		}
+		i++;
 	}
 	split[j] = 0;
 	return (split);
