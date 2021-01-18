@@ -6,56 +6,46 @@
 /*   By: liafigli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/13 14:05:09 by liafigli          #+#    #+#             */
-/*   Updated: 2021/01/15 17:22:52 by liafigli         ###   ########.fr       */
+/*   Updated: 2021/01/18 18:06:37 by liafigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static char		*func(char *str, int i, int n, int d)
+static int		ft_count(int n)
 {
-	int		sign;
+	size_t d;
 
-	sign = (n < 0) ? -1 : 1;
-	str = malloc(i + d);
-	if (!str)
-		return (NULL);
-	str[i + d - 1] = 0;
-	(sign > 0) ? i-- : i;
+	d = 0;
+	if (n == 0)
+		return (1);
 	while (n > 0)
 	{
-		str[i--] = n % 10 + '0';
 		n /= 10;
+		d++;
 	}
-	str[i] = (sign < 0) ? '-' : '+';
-	return (str);
+	return (d);
 }
 
-char	*ft_itoa(int n)
+char			*ft_itoa(int n)
 {
-	int		i;
-	char	*str;
-	int		sign;
-	int		d;
-	int		nb;
+	size_t		i;
+	char		*str;
+	int			sign;
 
-	i = 0;
-	d = 1;
-	nb = n;
-	sign = 1;
-	str = NULL;
-	if (n < 0)
+	if (n == -2147483648)
+		return (ft_strdup("-2147483648"));
+	sign = (n < 0) ? 1 : 0;
+	n = (sign == 1) ? n * -1 : n;
+	i = ft_count(n);
+	if (!(str = (char *)malloc(i + sign + 1)))
+		return (0);
+	str[i + sign] = '\0';
+	while (i > 0)
 	{
-		sign = -1;
-		n *= -1;
-		++d;
-	}
-	while (n > 0)
-	{
+		str[--i + sign] = n % 10 + '0';
 		n /= 10;
-		i++;
 	}
-	n = nb * sign;
-	str = func(str, i, n, d);	
+	str[0] = (sign == 1) ? '-' : str[0];
 	return (str);
 }

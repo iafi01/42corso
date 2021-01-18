@@ -6,7 +6,7 @@
 /*   By: liafigli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/13 14:55:05 by liafigli          #+#    #+#             */
-/*   Updated: 2021/01/18 13:59:42 by liafigli         ###   ########.fr       */
+/*   Updated: 2021/01/18 16:55:13 by liafigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,8 +56,9 @@ char			**ft_split(char const *s, char c)
 	i = 0;
 	j = 0;
 	index = -1;
-	split = malloc((count_words(s, c) + 1) * sizeof(char *));
-	if (!s || !split || !c)
+	if (!s)
+		return (0);
+	if (!(split = malloc((count_words(s, c) + 1) * sizeof(char *))))
 		return (0);
 	while (i <= ft_strlen(s))
 	{
