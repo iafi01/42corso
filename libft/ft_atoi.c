@@ -6,13 +6,13 @@
 /*   By: liafigli <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/12 10:46:20 by liafigli          #+#    #+#             */
-/*   Updated: 2021/01/17 17:23:24 by liafigli         ###   ########.fr       */
+/*   Updated: 2021/01/18 09:27:46 by liafigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int		space(char const *str, int i)
+static	int	space(char const *str, int i)
 {
 	while (str[i])
 	{
@@ -25,20 +25,11 @@ static int		space(char const *str, int i)
 	return (i);
 }
 
-static int	checkmax(long n, int sign)
-{
-	if (n > 2147483647 && sign == 1)
-		return (-1);
-	if (n > 2147483648 && sign == -1)
-		return (0);
-	return (1);
-}
-
 int		ft_atoi(const char *str)
 {
-	int i;
-	int sign;
-	long sum;
+	int					i;
+	int					sign;
+	unsigned long long	sum;
 
 	sum = 0;
 	sign = 1;
@@ -58,7 +49,7 @@ int		ft_atoi(const char *str)
 		else
 			break ;
 	}
-	if (checkmax(sum, sign) != 1)
-		return (checkmax(sum, sign));
+	if (i > 19 || sum >= 9223372036854775808ULL)
+		return (sign == 1 ? -1 : 0);
 	return (sum * sign);
 }
