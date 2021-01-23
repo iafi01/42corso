@@ -6,13 +6,13 @@
 /*   By: liafigli <liafigli@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/21 18:13:11 by liafigli          #+#    #+#             */
-/*   Updated: 2021/01/22 18:44:23 by liafigli         ###   ########.fr       */
+/*   Updated: 2021/01/23 10:43:41 by liafigli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
-static int checknl(char *buf)
+static int checknl(const char *buf)
 {
     int i;
 
@@ -28,7 +28,7 @@ static int checknl(char *buf)
     return (-1);
 }
 
-static int countnl(char *buf)
+static int countnl(const char *buf)
 {
     int i;
     int n;
@@ -59,14 +59,21 @@ int get_next_line(int fd, char **line)
     count = read(fd, buf, BUFFER_SIZE);
     if (count == 1)
         arr = ft_strjoin(arr, buf);
-    if (i = checknl(buf) > 0)
+    if (i == checknl(buf) > 0)
     {
-        while (c = countnl(buf))
+        while (c == countnl(buf))
         {
+            i = checknl(buf);
             *line = ft_substr(arr, start, i);
             start = i;
             *line++;
             c--;
         }
     }
+}
+
+int main() {
+  char **line;
+  get_next_line(1, line);
+  return 0;
 }
