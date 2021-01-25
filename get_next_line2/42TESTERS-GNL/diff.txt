@@ -1,0 +1,432 @@
+
+==========================================
+============== GNL TESTS =================
+==========================================
+BUFFER_SIZE 2 :
+6,166c6,38
+< |AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa
+< |BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBb
+< |CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCc
+< |DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDd
+< |EEEEEEEEEEEEEEEEEEEEEEEEEEEEEe
+< |FFFFFFFFFFFFFFFFFFFFFFFFFFFFf
+< |GGGGGGGGGGGGGGGGGGGGGGGGGGGg
+< |HHHHHHHHHHHHHHHHHHHHHHHHHHh
+< |IIIIIIIIIIIIIIIIIIIIIIIIIi
+< |JJJJJJJJJJJJJJJJJJJJJJJJj
+< |KKKKKKKKKKKKKKKKKKKKKKKk
+< |LLLLLLLLLLLLLLLLLLLLLLl
+< |MMMMMMMMMMMMMMMMMMMMMm
+< |NNNNNNNNNNNNNNNNNNNNn
+< |OOOOOOOOOOOOOOOOOOOo
+< |PPPPPPPPPPPPPPPPPPp
+< |QQQQQQQQQQQQQQQQQq
+< |RRRRRRRRRRRRRRRRr
+< |SSSSSSSSSSSSSSSs
+< |TTTTTTTTTTTTTTt
+< |UUUUUUUUUUUUUu
+< |VVVVVVVVVVVVv
+< |WWWWWWWWWWWw
+< |XXXXXXXXXXx
+< |YYYYYYYYYy
+< |ZZZZZZZZz
+< |AAAAAAAa
+< |BBBBBBb
+< |CCCCCc
+< |DDDDd
+< |EEEe
+< |FFf
+< |Gg
+< |h
+< |Ii
+< |JJj
+< |KKKk
+< |LLLLl
+< |MMMMMm
+< |NNNNNNn
+< |OOOOOOOo
+< |PPPPPPPPp
+< |QQQQQQQQQq
+< |RRRRRRRRRRr
+< |SSSSSSSSSSSs
+< |TTTTTTTTTTTTt
+< |UUUUUUUUUUUUUu
+< |VVVVVVVVVVVVVVv
+< |WWWWWWWWWWWWWWWw
+< |XXXXXXXXXXXXXXXXx
+< |YYYYYYYYYYYYYYYYYy
+< |ZZZZZZZZZZZZZZZZZZz
+< |AAAAAAAAAAAAAAAAAAAa
+< |BBBBBBBBBBBBBBBBBBBBb
+< |CCCCCCCCCCCCCCCCCCCCCc
+< |DDDDDDDDDDDDDDDDDDDDDDd
+< |EEEEEEEEEEEEEEEEEEEEEEEe
+< |FFFFFFFFFFFFFFFFFFFFFFFFf
+< |GGGGGGGGGGGGGGGGGGGGGGGGGg
+< |HHHHHHHHHHHHHHHHHHHHHHHHHHh
+< |IIIIIIIIIIIIIIIIIIIIIIIIIIIi
+< |JJJJJJJJJJJJJJJJJJJJJJJJJJJJj
+< |KKKKKKKKKKKKKKKKKKKKKKKKKKKKKk
+< |LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLl
+< |MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm
+< |NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNn
+< 
+< Right number of lines
+< 
+< ==========================================
+< ========= TEST 2 : Empty Lines ===========
+< ==========================================
+< 
+< |Cette ligne se termine par un point.
+< |La ligne suivante est vide.
+< |
+< |Les 2 lignes suivantes sont vides
+< |
+< |
+< |Et encore les 2 suivantes.
+< |
+< |
+< 
+< Right number of lines
+< 
+< ==========================================
+< ======== TEST 3 : The Empty File =========
+< ==========================================
+< 
+< |
+< 
+< Right number of lines
+< 
+< ==========================================
+< ========= TEST 4 : One New Line ==========
+< ==========================================
+< 
+< |
+< |
+< 
+< Right number of lines
+< 
+< ==========================================
+< ========= TEST 5 : Four New Lines ========
+< ==========================================
+< 
+< |
+< |
+< |
+< |
+< |
+< 
+< Right number of lines
+< 
+< ==========================================
+< ============== TEST 6 : 42 ===============
+< ==========================================
+< 
+< |answer to life the universe and everythin
+< |answer to life the universe and everything
+< |answer to life the universe and everything-
+< 
+< Right number of lines
+< 
+< ==========================================
+< ============= TEST 7 : Marge =============
+< ==========================================
+< 
+<    OOOO
+<  OOOOOOOOO
+< OOOOOOOOOOOO
+< OOOOOOOOOOOOO
+< OOOOOOOOOOOOOO
+< OOOOOOOOOOOOOO
+<  OOOOOOOOOOOOOO
+<  OOOOOOOOOOOOOO
+<  OOOOOOOOOOOOOO
+<   OOOOOOOOOOOOOO
+<   OOOOOOOOOOOOOO
+<   OOOOOOOOOOOOOO
+<   OOOOOOOOOOOOOO
+<    OOOOOOOOOOOOOO
+<    OOOOOOOOOOOOOO
+<    OOOOO \_| \_|O
+<    OOOO \/  \/  \
+<    OOOO (o   )o  )
+<    O/c   \__/ --.
+<    O\_   ,     -'
+<     O|  '\_______)
+<      |       _)
+<      |      |
+<      oooooooo
+<     /        \
+< 
+< Right number of lines
+< 
+< ==========================================
+< ========= TEST 8 : Wrong Input ===========
+< ==========================================
+< 
+< Well Done, you return -1 if no FD
+---
+> |A
+> |D
+> |E
+> |H
+> |I
+> |L
+> |M
+> |P
+> |Q
+> |T
+> |U
+> |X
+> |Y
+> |B
+> |C
+> |F
+> |G
+> |J
+> |K
+> |N
+> |O
+> |R
+> |S
+> |V
+> |W
+> |Z
+> |A
+> |D
+> |E
+> |H
+> |I
+> |L
+> |L
+167a40
+> Not Good - Wrong Number Of Lines
+BUFFER_SIZE 3 :
+6,37c6,37
+< |AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa
+< |BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBb
+< |CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCc
+< |DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDd
+< |EEEEEEEEEEEEEEEEEEEEEEEEEEEEEe
+< |FFFFFFFFFFFFFFFFFFFFFFFFFFFFf
+< |GGGGGGGGGGGGGGGGGGGGGGGGGGGg
+< |HHHHHHHHHHHHHHHHHHHHHHHHHHh
+< |IIIIIIIIIIIIIIIIIIIIIIIIIi
+< |JJJJJJJJJJJJJJJJJJJJJJJJj
+< |KKKKKKKKKKKKKKKKKKKKKKKk
+< |LLLLLLLLLLLLLLLLLLLLLLl
+< |MMMMMMMMMMMMMMMMMMMMMm
+< |NNNNNNNNNNNNNNNNNNNNn
+< |OOOOOOOOOOOOOOOOOOOo
+< |PPPPPPPPPPPPPPPPPPp
+< |QQQQQQQQQQQQQQQQQq
+< |RRRRRRRRRRRRRRRRr
+< |SSSSSSSSSSSSSSSs
+< |TTTTTTTTTTTTTTt
+< |UUUUUUUUUUUUUu
+< |VVVVVVVVVVVVv
+< |WWWWWWWWWWWw
+< |XXXXXXXXXXx
+< |YYYYYYYYYy
+< |ZZZZZZZZz
+< |AAAAAAAa
+< |BBBBBBb
+< |CCCCCc
+< |DDDDd
+< |EEEe
+< |FFf
+---
+> |A
+> |BB
+> |CC
+> |D
+> |EE
+> |FF
+> |G
+> |HH
+> |II
+> |J
+> |KK
+> |LL
+> |M
+> |NN
+> |OO
+> |P
+> |QQ
+> |RR
+> |S
+> |TT
+> |UU
+> |V
+> |WW
+> |XX
+> |Y
+> |ZZ
+> |AA
+> |B
+> |CC
+> |DD
+> |E
+> |Ff
+40,71c40,71
+< |Ii
+< |JJj
+< |KKKk
+< |LLLLl
+< |MMMMMm
+< |NNNNNNn
+< |OOOOOOOo
+< |PPPPPPPPp
+< |QQQQQQQQQq
+< |RRRRRRRRRRr
+< |SSSSSSSSSSSs
+< |TTTTTTTTTTTTt
+< |UUUUUUUUUUUUUu
+< |VVVVVVVVVVVVVVv
+< |WWWWWWWWWWWWWWWw
+< |XXXXXXXXXXXXXXXXx
+< |YYYYYYYYYYYYYYYYYy
+< |ZZZZZZZZZZZZZZZZZZz
+< |AAAAAAAAAAAAAAAAAAAa
+< |BBBBBBBBBBBBBBBBBBBBb
+< |CCCCCCCCCCCCCCCCCCCCCc
+< |DDDDDDDDDDDDDDDDDDDDDDd
+< |EEEEEEEEEEEEEEEEEEEEEEEe
+< |FFFFFFFFFFFFFFFFFFFFFFFFf
+< |GGGGGGGGGGGGGGGGGGGGGGGGGg
+< |HHHHHHHHHHHHHHHHHHHHHHHHHHh
+< |IIIIIIIIIIIIIIIIIIIIIIIIIIIi
+< |JJJJJJJJJJJJJJJJJJJJJJJJJJJJj
+< |KKKKKKKKKKKKKKKKKKKKKKKKKKKKKk
+< |LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLl
+< |MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm
+< |NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNn
+---
+> |i
+> |Jj
+> |K
+> |L
+> |MM
+> |N
+> |O
+> |PP
+> |Q
+> |R
+> |SS
+> |T
+> |U
+> |VV
+> |W
+> |X
+> |YY
+> |Z
+> |A
+> |BB
+> |C
+> |D
+> |EE
+> |F
+> |G
+> |HH
+> |I
+> |J
+> |KK
+> |L
+> |M
+> |M
+74,167d73
+< 
+< ==========================================
+< ========= TEST 2 : Empty Lines ===========
+< ==========================================
+< 
+< |Cette ligne se termine par un point.
+< |La ligne suivante est vide.
+< |
+< |Les 2 lignes suivantes sont vides
+< |
+< |
+< |Et encore les 2 suivantes.
+< |
+< |
+< 
+< Right number of lines
+< 
+< ==========================================
+< ======== TEST 3 : The Empty File =========
+< ==========================================
+< 
+< |
+< 
+< Right number of lines
+< 
+< ==========================================
+< ========= TEST 4 : One New Line ==========
+< ==========================================
+< 
+< |
+< |
+< 
+< Right number of lines
+< 
+< ==========================================
+< ========= TEST 5 : Four New Lines ========
+< ==========================================
+< 
+< |
+< |
+< |
+< |
+< |
+< 
+< Right number of lines
+< 
+< ==========================================
+< ============== TEST 6 : 42 ===============
+< ==========================================
+< 
+< |answer to life the universe and everythin
+< |answer to life the universe and everything
+< |answer to life the universe and everything-
+< 
+< Right number of lines
+< 
+< ==========================================
+< ============= TEST 7 : Marge =============
+< ==========================================
+< 
+<    OOOO
+<  OOOOOOOOO
+< OOOOOOOOOOOO
+< OOOOOOOOOOOOO
+< OOOOOOOOOOOOOO
+< OOOOOOOOOOOOOO
+<  OOOOOOOOOOOOOO
+<  OOOOOOOOOOOOOO
+<  OOOOOOOOOOOOOO
+<   OOOOOOOOOOOOOO
+<   OOOOOOOOOOOOOO
+<   OOOOOOOOOOOOOO
+<   OOOOOOOOOOOOOO
+<    OOOOOOOOOOOOOO
+<    OOOOOOOOOOOOOO
+<    OOOOO \_| \_|O
+<    OOOO \/  \/  \
+<    OOOO (o   )o  )
+<    O/c   \__/ --.
+<    O\_   ,     -'
+<     O|  '\_______)
+<      |       _)
+<      |      |
+<      oooooooo
+<     /        \
+< 
+< Right number of lines
+< 
+< ==========================================
+< ========= TEST 8 : Wrong Input ===========
+< ==========================================
+< 
+< Well Done, you return -1 if no FD
+< 
+BUFFER_SIZE 1 :
