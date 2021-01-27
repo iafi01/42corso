@@ -6,3 +6,6 @@ git clone https://github.com/iafi01/42corso.git
 
 
 LIBFT : https://github.com/iafi01/libft
+
+
+GET_NEXT_LINE : https://github.com/iafi01/get_next_line
