@@ -1,20 +1,23 @@
 # 42corso
 
 <a href="https://www.42roma.it">Cos'é 42?</a>
-
-Questa Repository: https://github.com/iafi01/42corso.git
-
-
-PISCINA : https://github.com/iafi01/Piscina
-
-
-LIBFT : https://github.com/iafi01/libft <b>115/100</b>
-
-
-GET_NEXT_LINE : https://github.com/iafi01/get_next_line <b>100/100</b>
-
-
-PRINTF : https://github.com/iafi01/printf <b>100/100</b>
-
-
-ESAME : https://github.com/iafi01/exam02
+<table>
+ <tr>
+<td>Questa Repository:</td><td> https://github.com/iafi01/42corso.git</td>
+ </tr>
+ <tr>
+<td>PISCINA :</td><td> https://github.com/iafi01/Piscina</td>
+ </tr>
+ <tr>
+<td>LIBFT :</td><td> https://github.com/iafi01/libft</td><td> <b>115/100</b></td>
+ </tr>
+ <tr>
+<td>GET_NEXT_LINE :</td><td> https://github.com/iafi01/get_next_line</td><td> <b>100/100</b></td>
+ </tr>
+ <tr>
+<td>PRINTF :</td><td> https://github.com/iafi01/printf</td><td> <b>100/100</b></td>
+ </tr>
+ <tr>
+ESAME :</td><td> https://github.com/iafi01/exam02</td>
+ </tr>
+</table>
