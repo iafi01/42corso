@@ -8,13 +8,13 @@ Questa Repository: https://github.com/iafi01/42corso.git
 PISCINA : https://github.com/iafi01/Piscina
 
 
-LIBFT : https://github.com/iafi01/libft
+LIBFT : https://github.com/iafi01/libft <b>115/100</b>
 
 
-GET_NEXT_LINE : https://github.com/iafi01/get_next_line
+GET_NEXT_LINE : https://github.com/iafi01/get_next_line <b>100/100</b>
 
 
-PRINTF : https://github.com/iafi01/printf
+PRINTF : https://github.com/iafi01/printf <b>100/100</b>
 
 
 ESAME : https://github.com/iafi01/exam02
