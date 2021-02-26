@@ -21,6 +21,6 @@
 <td>ESAME :</td><td> https://github.com/iafi01/exam02</td><td></td>
  </tr>
  <tr>
-<td>FT_SERVER :</td><td> https://github.com/iafi01/ft_server</td><td></td>
+<td>FT_SERVER :</td><td> https://github.com/iafi01/ft_server</td>100/100<td></td>
  </tr>
 </table>
