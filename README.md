@@ -23,4 +23,7 @@
  <tr>
 <td>FT_SERVER :</td><td> https://github.com/iafi01/ft_server</td><td><b>100/100</b></td>
  </tr>
+  <tr>
+<td>MINI_RT :</td><td> https://github.com/iafi01/mini_rt</td><td><b></b></td>
+ </tr>
 </table>
