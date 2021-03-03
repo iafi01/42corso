@@ -18,7 +18,7 @@
 <td>PRINTF :</td><td> https://github.com/iafi01/printf</td><td><b>100/100</b></td>
  </tr>
  <tr>
-<td>ESAME :</td><td> https://github.com/iafi01/exam02</td><td><b>50/100</b></td>
+<td>ESAME :</td><td> https://github.com/iafi01/exam02</td><td><b>100/100</b></td>
  </tr>
  <tr>
 <td>FT_SERVER :</td><td> https://github.com/iafi01/ft_server</td><td><b>100/100</b></td>
