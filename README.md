@@ -24,7 +24,7 @@
 <td>FT_SERVER :</td><td> https://github.com/iafi01/ft_server</td><td><b>100/100</b></td>
  </tr>
   <tr>
-<td>MINI_RT :</td><td> https://github.com/iafi01/mini_rt</td><td><b></b></td>
+<td>MINI_RT :</td><td> https://github.com/iafi01/mini_rt</td><td><b>111/100</b></td>
  </tr>
  <tr>
 <td>LIBASM :</td><td> https://github.com/iafi01/libasm</td><td><b></b></td>
