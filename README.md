@@ -27,7 +27,7 @@
 <td>MINI_RT :</td><td> https://github.com/iafi01/mini_rt</td><td><b>111/100</b></td>
  </tr>
  <tr>
-<td>LIBASM :</td><td> https://github.com/iafi01/libasm</td><td><b></b></td>
+<td>LIBASM :</td><td> https://github.com/iafi01/libasm</td><td><b>100/100</b></td>
  </tr>
 </table>
 <br><br><br><br><br>
