@@ -29,6 +29,9 @@
  <tr>
 <td>LIBASM :</td><td> https://github.com/iafi01/libasm</td><td><b>100/100</b></td>
  </tr>
+ <tr>
+<td>FT_SERVICES :</td><td> https://github.com/iafi01/ft_services</td><td><b>0/100</b></td>
+ </tr>
 </table>
 <br><br><br><br><br>
  .c    modulo sorgente C; da preprocessare, compilare e assemblare<br>
