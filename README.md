@@ -1,5 +1,5 @@
 # 42corso
-#### Checker example
+### Copia comando
 ```
 Ciao
 ```
