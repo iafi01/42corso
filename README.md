@@ -1,8 +1,4 @@
 # 42corso
-### Copia comando
-```
-Ciao
-```
 <a href="https://www.42roma.it">Cos'é 42?</a>
 <table>
  <tr>
@@ -36,8 +32,7 @@ Ciao
 <td>FT_SERVICES :</td><td> https://github.com/iafi01/ft_services</td><td><b>0/100</b></td>
  </tr>
 </table>
-<br><br><br><br><br>
-
+<br><br><br>
  .c    modulo sorgente C; da preprocessare, compilare e assemblare<br>
  .cc   modulo sorgente C++; da preprocessare, compilare e assemblare<br>
  .cpp  modulo sorgente C++; da preprocessare, compilare e assemblare<br>
