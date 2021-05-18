@@ -1,5 +1,21 @@
 # 42corso
-
+#### Checker example
+```
+$>./checker 3 2 1 0
+rra
+pb
+sa
+rra
+pa
+OK
+$>./checker 3 2 1 0
+sa
+rra
+pb
+KO
+$>./checker 3 2 one 0
+Error
+```
 <a href="https://www.42roma.it">Cos'é 42?</a>
 <table>
  <tr>
@@ -34,23 +50,7 @@
  </tr>
 </table>
 <br><br><br><br><br>
-#### Checker example
-```
-$>./checker 3 2 1 0
-rra
-pb
-sa
-rra
-pa
-OK
-$>./checker 3 2 1 0
-sa
-rra
-pb
-KO
-$>./checker 3 2 one 0
-Error
-```
+
  .c    modulo sorgente C; da preprocessare, compilare e assemblare<br>
  .cc   modulo sorgente C++; da preprocessare, compilare e assemblare<br>
  .cpp  modulo sorgente C++; da preprocessare, compilare e assemblare<br>
