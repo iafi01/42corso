@@ -1,20 +1,7 @@
 # 42corso
 #### Checker example
 ```
-$>./checker 3 2 1 0
-rra
-pb
-sa
-rra
-pa
-OK
-$>./checker 3 2 1 0
-sa
-rra
-pb
-KO
-$>./checker 3 2 one 0
-Error
+Ciao
 ```
 <a href="https://www.42roma.it">Cos'é 42?</a>
 <table>
