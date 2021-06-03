@@ -5,7 +5,7 @@
 <td>Questa Repository:</td><td> https://github.com/iafi01/42corso.git</td><td></td>
  </tr>
  <tr>
-<td>PISCINA :</td><td> https://github.com/iafi01/Piscina</td><td><b>Promosso</b></td>
+<td>PISCINA :</td><td> https://github.com/iafi01/Piscina</td><td><b>Ammesso</b></td>
  </tr>
  <tr>
 <td>LIBFT :</td><td> https://github.com/iafi01/libft</td><td> <b>115/100</b></td>
