@@ -38,7 +38,7 @@
 <td>EXAM03 :</td><td> https://github.com/iafi01/exam03</td><td><b>Privato</b></td>
  </tr>
  <tr>
-<td>EXAM03 :</td><td> https://github.com/iafi01/philosophers</td><td><b>0/100</b></td>
+<td>PHILOSOPHERS :</td><td> https://github.com/iafi01/philosophers</td><td><b>0/100</b></td>
  </tr>
 </table>
 <br><br><br>
