@@ -32,7 +32,7 @@
 <td>FT_SERVICES :</td><td> https://github.com/iafi01/ft_services</td><td><b>100/100</b></td>
  </tr>
  <tr>
-<td>PUSH_SWAP :</td><td> https://github.com/iafi01/push_swap</td><td><b>0/100</b></td>
+<td>PUSH_SWAP :</td><td> https://github.com/iafi01/push_swap</td><td><b>86/100</b></td>
  </tr>
   <tr>
 <td>EXAM03 :</td><td> https://github.com/iafi01/exam03</td><td><b>Privato</b></td>
