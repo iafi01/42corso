@@ -42,10 +42,5 @@
  </tr>
 </table>
 <br><br><br>
- .c    modulo sorgente C; da preprocessare, compilare e assemblare<br>
- .cc   modulo sorgente C++; da preprocessare, compilare e assemblare<br>
- .cpp  modulo sorgente C++; da preprocessare, compilare e assemblare<br>
- .h    modulo per il preprocessore; di solito non nominato nella riga di commando<br>
- .o    modulo oggetto; da passare linker<br>
- .a    sono librerie statiche<br>
- .so   sono librerie dinamiche<br>
+ 
+ Le repository ora sono private 
