@@ -42,7 +42,7 @@
 <td>EXAM03 :</td><td> https://github.com/iafi01/exam03</td><td><b>Privato</b></td><td></td>
  </tr>
  <tr>
-<td>PHILOSOPHERS :</td><td> https://github.com/iafi01/philosophers</td><td><b>100/100</b></td><td><a href="philosophers.pdf">PDF</a></td>
+<td>PHILOSOPHERS :</td><td> https://github.com/iafi01/philosophers</td><td><b>100/100</b></td><td><a href="Philosophers.pdf">PDF</a></td>
  </tr>
  <tr>
 <td>MINISHELL :</td><td> https://github.com/iafi01/minishell2</td><td><b>100/100</b></td><td><a href="minishell.pdf">PDF</a></td>
@@ -55,7 +55,7 @@
 <td>C++ :</td><td> https://github.com/iafi01/cpp</td><td><b>100/100</b></td><td></td>
  </tr>
  <tr>
-<td>Container :</td><td> https://github.com/iafi01/container</td><td><b>100/100</b></td><td><a href="container.pdf">PDF</a></td>
+<td>Container :</td><td> https://github.com/iafi01/container</td><td><b>100/100</b></td><td><a href="ft_container.pdf">PDF</a></td>
  </tr>
  <tr>
 <td>Netpractice :</td><td> https://github.com/iafi01/netpractice</td><td><b>100/100</b></td><td><a href="Netpractice.pdf">PDF</a></td>
@@ -67,7 +67,7 @@
 <td>Ft_irc :</td><td> https://github.com/iafi01/ft_irc</td><td><b>100/100</b></td><td><a href="ft_irc.pdf">PDF</a></td>
  </tr>
  <tr>
-<td>Trascendence :</td><td> https://github.com/iafi01/Trascendence</td><td><b>100/100</b></td><td><a href="transcendence.pdf">PDF</a></td>
+<td>Trascendence :</td><td> https://github.com/iafi01/Trascendence</td><td><b>100/100</b></td><td><a href="transcendence_FINAL.pdf">PDF</a></td>
  </tr>
  <tr>
 <td>Exam06 :</td><td> https://github.com/iafi01/exam06</td><td><b>Privato</b></td>
