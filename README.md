@@ -61,7 +61,7 @@
 <td>Netpractice :</td><td> https://github.com/iafi01/netpractice</td><td><b>100/100</b></td><td><a href="Netpractice.pdf">PDF</a></td>
  </tr>
  <tr>
-<td>Exam05 :</td><td> https://github.com/iafi01/exam05</td><td><b>Privato</b></td>
+<td>Exam05 :</td><td> https://github.com/iafi01/exam05</td><td><b>Privato</b></td><td><a href="transcendence_FINAL.pdf">PDF</a></td>
  </tr>
  <tr>
 <td>Ft_irc :</td><td> https://github.com/iafi01/ft_irc</td><td><b>100/100</b></td><td><a href="ft_irc.pdf">PDF</a></td>
@@ -70,7 +70,7 @@
 <td>Trascendence :</td><td> https://github.com/iafi01/Trascendence</td><td><b>100/100</b></td><td><a href="transcendence_FINAL.pdf">PDF</a></td>
  </tr>
  <tr>
-<td>Exam06 :</td><td> https://github.com/iafi01/exam06</td><td><b>Privato</b></td>
+<td>Exam06 :</td><td> https://github.com/iafi01/exam06</td><td><b>Privato</b></td><td></td>
  </tr>
 </table>
 <br><br><br>
