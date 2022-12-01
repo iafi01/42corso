@@ -9,10 +9,10 @@
 <td>Utils:</td><td> <!---https://github.com/iafi01/subject_correction-->
 </td><td></td>
  </tr>
-<td>PISCINA :</td><td> https://github.com/iafi01/Piscina</td><td><b>Ammesso</b></td>
+<td>PISCINA :</td><td> https://github.com/iafi01/Piscina</td><td><b>Ammesso</b></td><td></td>
  </tr>
  <tr>
-<td>LIBFT :</td><td> https://github.com/iafi01/libft</td><td> <b>115/100</b></td>
+<td>LIBFT :</td><td> https://github.com/iafi01/libft</td><td> <b>115/100</b></td><td><a href="libft.pdf">PDF</a></td>
  </tr>
  <tr>
 <td>GET_NEXT_LINE :</td><td> https://github.com/iafi01/get_next_line</td><td> <b>100/100</b></td>
