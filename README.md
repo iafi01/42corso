@@ -58,7 +58,7 @@
 <td>Container :</td><td> https://github.com/iafi01/container</td><td><b>100/100</b></td>
  </tr>
  <tr>
-<td>Exam05 :</td><td> https://github.com/iafi01/exam05</td><td><b>100/100</b></td>
+<td>Exam05 :</td><td> https://github.com/iafi01/exam05</td><td><b>Privato</b></td>
  </tr>
  <tr>
 <td>Ft_irc :</td><td> https://github.com/iafi01/ft_irc</td><td><b>100/100</b></td>
@@ -67,7 +67,7 @@
 <td>Trascendence :</td><td> https://github.com/iafi01/Trascendence</td><td><b>100/100</b></td>
  </tr>
  <tr>
-<td>Exam06 :</td><td> https://github.com/iafi01/exam06</td><td><b>100/100</b></td>
+<td>Exam06 :</td><td> https://github.com/iafi01/exam06</td><td><b>Privato</b></td>
  </tr>
 </table>
 <br><br><br>
