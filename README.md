@@ -10,11 +10,11 @@
 <br>
 <table>
 <tr>
-<td><img src="42_rank.jpeg" alt="rank" style="width:100%"></td>
+<td><img src="https://github.com/iafi01/iafi01/blob/main/42_rank.jpeg" alt="rank" style="width:100%"></td>
 <td>
 <h3 align="center"><a href="https://www.wuri.world/2022-global-top-100">
 Global Top 100 Innovative Universities</a></h3>
-<img src="wuri_leaderboard.png" alt="leaderboard" style="width:100%;">
+<img src="https://github.com/iafi01/iafi01/blob/main/wuri_leaderboard.png" alt="leaderboard" style="width:100%;">
 </td>
 </tr>
 </table>
@@ -26,7 +26,7 @@ Global Top 100 Innovative Universities</a></h3>
     this means also i am a 42 students for my entire life.
     
    <br>
-  <a href="https://github.com/iafi01/42corso"><img style="margin:auto;" src="profile_42.png" width="100%">
+  <a href="https://github.com/iafi01/42corso"><img style="margin:auto;" src="https://github.com/iafi01/iafi01/blob/main/profile_42.png" width="100%">
   <h1 align="center">My Student Projects</h3>
   <br>
 
@@ -36,7 +36,7 @@ Global Top 100 Innovative Universities</a></h3>
     if you reach the last circle you became life student
     
   <br>
-  <img src="42img.png" width="100%">
+  <img src="https://github.com/iafi01/iafi01/blob/main/42img.png" width="100%">
   <h1 align="center" style="text-decoration: underline;">See my projects here</h1>
 <h3>Repositories are based on: C, C++, Docker and Web</h3>
 <table>
@@ -118,7 +118,7 @@ Global Top 100 Innovative Universities</a></h3>
     but where the main purpose is not have fun, but have learnt
     
 <br>
-<img src="42_achievements.png" alt="leaderboard" style="width:100%;">
+<img src="https://github.com/iafi01/iafi01/blob/main/42_achievements.png" alt="leaderboard" style="width:100%;">
 <br><br>
 <h1 align="center">Lorenzo Languages</h1>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iafi01&hide_progress=true">
